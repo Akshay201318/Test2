@@ -1,0 +1,230 @@
+@media only screen and (min-width:701px)
+{
+    #next
+    {   margin-left: -52px;
+       height: 70vh;
+       display:flex;
+       justify-content: space-around;
+    }
+    #img1
+    {
+        margin-left: 30%;
+    }
+    #Addbtn
+    {
+        margin-left: 5%;
+    }
+    .SuperheroImg
+    {
+        margin-top: -20%;
+        height:300px;
+        width:400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   }
+}
+@media only screen and (max-width:700px)
+{
+    #next
+    {   margin-left: 52px;
+       height: 70vh;
+       display:block;
+       
+    }
+    #btn1
+    {
+        display:block;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .SuperheroImg
+    {
+        margin-top: -20%;
+        display:block;
+        height:300px;
+        width:400px;
+       
+    }
+    #img1
+    {
+        margin-top: 5%;
+        margin-left:5%;
+    }
+    #Addbtn
+    {
+        margin-left: 30%;
+    }
+}
+
+
+/*****Home page styling****/
+
+body{
+    background: linear-gradient(to right, #A6F0F1 0%, teal 100%);
+    height:100vh;
+}
+#Names{
+    border-radius: 2.6rem;
+    outline: none;
+    border-color: yellowgreen;
+    color:black;
+    font-family: cursive;
+    text-shadow: 2px 2px 3px red;
+}
+#home
+{
+    
+    
+    font-size: 1.5rem;
+}
+#home-span
+{
+    
+    margin-left: 5%;
+    text-shadow: 2px 2px 3px red;
+   
+}
+#fav-span
+{
+    margin-left: 5%;
+    text-shadow: 2px 2px 3px red;
+    
+}
+ a{
+    text-decoration: none;
+}
+#home a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+#text
+{
+    margin-left: 5%; 
+    margin-top: 3%;
+}
+#heading
+{
+    color:lightyellow;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#intro
+{
+    color:yellow;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; 
+}
+#get
+{
+    height:30vh;
+    display:flex;
+    justify-content: space-around;
+    align-content: space-between;
+
+}
+#Names
+{
+    text-align: center;
+    
+    height:40px;
+    width:200px;
+}
+
+
+
+#btn
+{
+    
+    height:40px;
+    border-color: teal;
+    background-color: lightgreen;
+    color:white;
+    font-weight: 600;
+    border-radius: 2.6rem;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 2px 2px 3px red
+}
+
+#btn1
+{
+       
+    height:40px;
+    border-color: teal;
+    background-color: lightgreen;
+    color:white;
+    font-weight: 600;
+    border-radius: 2.6rem;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 2px 2px 3px red
+}
+#btn:hover
+{
+    border-color: black;
+    background-color: yellow;
+   
+}
+#btn1:hover
+{
+    border-color: black;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+/*****about page styling******/
+
+/* main image of about page*/
+#img1
+{
+    align-self: center;
+    
+    height:300px;
+    width:400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+#about
+{
+    margin-top:5% ;
+    margin-left: 15%;
+}
+.bio
+{
+    font-size: 1.5rem;
+    color: rgb(34, 0, 128);
+    font-family: cursive;
+}
+#bio
+{
+    font-size: 1.5rem;
+    color: rgb(34, 0, 128);
+    font-family: cursive;
+}
+
+
+
+
+
+/******favourite page styling******/
+#imgs
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+/*Adding diamentions to all the images*/
+#imgs img{
+    height:300px;
+    width:400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;  
+}
